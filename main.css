@@ -9,7 +9,6 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-
   margin-bottom: 100px;
 }
 
@@ -17,6 +16,15 @@ h3 {
   font-size: 24px;
   color: #f9faf8;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  padding: 6px 30px;
+  border: 1px solid black;
 }
 
 li {
@@ -34,10 +42,12 @@ li {
 .hero {
   display: flex;
   justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
 }
 
 .left {
-  width: 25%;
+  width: 30%;
 }
 
 .hero > h1 {
@@ -54,4 +64,97 @@ li {
   background: gray;
   width: 500px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.card {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 130px;
+  height: 130px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrap-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.space {
+  background: #f9faf8;
+  color: #1f2937;
+}
+
+.title > h2 {
+  font-size: 36px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.odin {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #e5e7eb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 800px;
+}
+
+.container > p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.calltoaction {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle {
+  border: 2px solid #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 25px;
+  border-radius: 20px;
+  width: 800px;
+}
+
+.text > h4 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.text > p {
+  margin: 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
